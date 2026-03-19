@@ -10,6 +10,14 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: mcp-skill-creator
+      description: Meta-skill for creating workflow-optimized skills from MCP servers
+      source: https://github.com/nemori-ai/skills/blob/main/mcp-skill-creator/SKILL.md
+
+    - name: skill-customizer
+      description: Customize existing skills through iterative improvement based on user feedback and preferences
+      source: https://github.com/nemori-ai/skills/blob/main/skill-customizer/SKILL.md
+
   agents: []
   prompts: []
